@@ -58,4 +58,4 @@ The sites I helped make: albico-group.by, fasad-mg.by, rpz.by, kdm24.by, мик�
 * HTML Academy
 * 
 ## English
-Upper-intermidate (I practiced English when I worked in my city for the Chinese at the Wintrid trading company)
+Upper-intermidate (I practiced English when I worked in my city for the Chinese at the Wintrid trading company )

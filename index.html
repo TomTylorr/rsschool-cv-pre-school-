@@ -4,10 +4,142 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>cv</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <h1>My name is Dima</h1>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                </ul>
+              </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container main-container">
+            <section class="section" id="profile">
+                <h1 class="section-title">Dzmitry Obukhov</h1>
+                <h3>Junior Front-End Developer</h3>
+                <img src="me.jpg" alt="my photo" class="my-photo">
+            </section>     
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="section-list">
+                    <li class="section-item contacts-item">Lida, Belarus</li>
+                    <li class="section-item contacts-item">
+                        Email: <a class="section-link" href="mailto:tomtylorr@gmail.com" title="email">tomtylorr@gmail.com</a>
+                    </li>
+                    <li class="section-item contacts-item">
+                        Github <a class="section-link" href="https://github.com/tomtylorr" title="github">tomtylorr</a>
+                    </li>
+                    <li class="section-item contacts-item">
+                        Telegram: <a class="section-link" href="https://t.me//tomtylorr" title="telegram">@TomTylorr</a>
+                    </li>
+                    <li class="section-item contacts-item">
+                        Discord: <a class="section-link" href="https://discord.gg/" title="discord">tomtylorr#7856</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>I work as the head of the sales department, but for a long time I want to change the field of activity. I started studying web development when I was 24 years old, but for many reasons it was not possible to change my activity. Hopefully this year everything will change and I will successfully finish the course on Front-end development.</p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="section-list">
+                    <li class="section-item">
+                        Web-development: <span>HTML5, CSS3, JavaScript, PHP</span>
+                    </li>
+                    <li class="section-item">
+                        CMS: <span>1C-bitrix, WordPress</span>
+                    </li>
+                    <li class="section-item">
+                        Version control: <span>GIT, GitHub</span>
+                    </li>
+                    <li class="section-item">
+                        Graphics: <span>Adobe Photoshop, Corel Draw, Caldera</span>
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <pre class="pre">
+                    <code>
+                        // selection sort function
+                        function selectionSort(arr) {
+                            let newArr = [];
+                        
+                            for (let i = 0; arr.length; i++) {
+                                let min = smallest(arr);
+                                newArr.push(arr.splice(min, 1));
+                            }
+                            return newArr;
+                        }
+                    </code>
+                </pre>
+            </section>
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <ul class="section-list">
+                    <li class="section-item">
+                        Hexlet - <span>JavaScript for beginner</span>
+                    </li>
+                    <li class="section-item">
+                        Hexlet - <span>PHP for beginner</span>
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <ul class="section-list">
+                    <li class="section-item">
+                        <a class="section-link" href="https://микрон.бел/">микрон.бел</a>
+                    </li>
+                    <li class="section-item">
+                        <a class="section-link" href="https://fasad-mg.by/">fasad-mg.by</a>
+                    </li>
+                    <li class="section-item">
+                        <a class="section-link" href="https://tomtylorr.github.io/rpz.by/">rpz.by</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <p>Independent learning</p>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">languages</h2>
+                <p>B1 - Pre-Intermediate</p>
+            </section>
+
+        </div>
+    </main>
+
+
+    <footer class="footer">
+        <div class="container footer-container">
+            @ 2022
+            <a href="https://github.com/tomtylorr/" class="github nav-link">
+                My GitHub
+              </a>
+            <a href="https://rs.school/js-stage0/" class="rss"></a>
+        </div>
+    </footer>
+
 </body>
 </html>

@@ -1,2 +1,2 @@
-# https://tomtylorr/rsschool-cv/cv
-# https://tomtylorr/rsschool-cv/
+### https://tomtylorr.github.io/rsschool-cv/cv
+### https://tomtylorr.github.io/rsschool-cv/
